@@ -153,7 +153,7 @@
 
 /* Completed */
 
-.todo__task-name_crossed-out {
+.todo__task-name_deleted {
   text-decoration: line-through;
   color: #888;
 }

@@ -144,8 +144,8 @@ var taskCompleted=function(){
     console.log(this.parentNode);
     listItem.querySelector(".todo__checkbox").checked = true;
     listItem
-      .querySelector(".todo__task-name")
-      .classList.add("todo__task-name_crossed-out");
+      .querySelector('.todo__task-name')
+      .classList.add('todo__task-name_deleted');
   completedTasksHolder.appendChild(listItem);
   bindTaskEvents(listItem, taskIncomplete);
 }
@@ -160,8 +160,8 @@ var taskIncomplete=function(){
   console.log(this.parentNode);
   listItem.querySelector(".todo__checkbox").checked = false;
   listItem
-    .querySelector(".todo__task-name_crossed-out")
-    .classList.remove("todo__task-name_crossed-out");
+    .querySelector('.todo__task-name_deleted')
+    .classList.remove('todo__task-name_deleted');
   incompleteTaskHolder.appendChild(listItem);
   bindTaskEvents(listItem, taskCompleted);
 }
