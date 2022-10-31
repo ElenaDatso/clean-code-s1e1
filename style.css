@@ -17,7 +17,8 @@
 }
 
 .header__details {
-  font-family: fantasy, cursive;
+  font-family: Papyrus, fantasy, cursive;
+  font-weight: 600;
 }
 
 @media (max-width:768px) {
