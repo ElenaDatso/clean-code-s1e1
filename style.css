@@ -163,6 +163,7 @@
   display: none;
 }
 
+
 .todo__task-name-input_active {
   display: inline-block;
   width: 70%;
