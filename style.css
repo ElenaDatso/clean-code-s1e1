@@ -23,8 +23,9 @@
 
 @media (max-width:768px) {
 
-  .header {
+  .header__details {
     text-align: center;
+	display: block;
   }
 
 }
